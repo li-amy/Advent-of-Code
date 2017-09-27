@@ -1,4 +1,4 @@
-parentheses = File.open('./day1_input.txt', 'r') { |f| f.read }
+parentheses = File.open('./input.txt', 'r') { |f| f.read }
 floor = 0
 position = 1
 parentheses.each_char { |c| 
